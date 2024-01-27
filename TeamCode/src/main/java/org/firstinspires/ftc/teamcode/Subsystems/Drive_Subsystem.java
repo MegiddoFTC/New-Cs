@@ -28,10 +28,10 @@ public class Drive_Subsystem extends SubsystemBase {
     private final MecanumDrive drive;
 
     public Drive_Subsystem(HardwareMap hMap) {
-        leftFront = new MotorEx(hMap, "LeftFront");
-        rightBack = new MotorEx(hMap, "RightBack");
-        rightFront = new MotorEx(hMap, "RightFront");
-        leftBack = new MotorEx(hMap, "LeftBack");
+        leftFront = new MotorEx(hMap, "leftFront");
+        rightBack = new MotorEx(hMap, "leftBack");
+        rightFront = new MotorEx(hMap, "rightBack");
+        leftBack = new MotorEx(hMap, "rightFront");
         imu = new RevIMU(hMap);
         imu.init();
         gamepad =  new Gamepad();
