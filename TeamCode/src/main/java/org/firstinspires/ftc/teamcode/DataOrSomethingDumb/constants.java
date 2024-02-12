@@ -3,8 +3,7 @@ package org.firstinspires.ftc.teamcode.DataOrSomethingDumb;
 public final class constants {
     public final static class climb{
         //TODO: ADD MAX HIGHT
-        public static int ClimdMaxHight = 1000;
-        public static int FullyRetract = 0;
+        public static int MIN_FOR_OPN_SRV = 1000;
     }
     public final static class droneRelease{
         //TODO: Check pos of servo
